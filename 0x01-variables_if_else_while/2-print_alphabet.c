@@ -18,7 +18,7 @@ int c = 'a';
 int putchar(int c);
 while (c <= 'z')
 {
-printf("%c\n",c);
+printf("%c ", c);
 c++;
 }
 return (0);
