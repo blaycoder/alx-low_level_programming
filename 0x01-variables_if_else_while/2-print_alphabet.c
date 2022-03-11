@@ -21,6 +21,6 @@ while (c <= 'z')
 printf("%c", c);
 c++;
 }
-putchar('\n'); 
+putchar('\n');
 return (0);
 }
