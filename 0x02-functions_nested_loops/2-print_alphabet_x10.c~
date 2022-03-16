@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ *function_name - (It prints alhabet 10 times in lowercase)
+ *@varible used: loop,c
+ *Return: 0
+ */
+
+void print_alphabet_x10(void)
+{
+char loop;
+char c;
+for (loop = 'a'; loop <= 'j'; loop++)
+{
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
+}
+}
