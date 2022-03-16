@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- *_abs - prints absolue vale of an integer
- *@int: the value to check
+ * _abs - determines the absolute value of an integer
+ *@a: value for absolute
  *
- * Return: O if it's zero, 1 if is possitive, -1 is negative
- * On error
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int _abs(int)
+int _abs(int a)
 {
-if (_abs(-1))
-_putchar(1);
-else if (_abs(0))
-_putchar(0);
-else if (_abs(1))
-_putchar(1);
-else if (_abs(-98))
-_putchar(98);
-return (0);
+	if (a >= 0)
+		return (a * 1);
+	else if (a < 0)
+		return (a * -1);
+	return (0);
 }
+
