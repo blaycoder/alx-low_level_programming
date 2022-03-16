@@ -30,7 +30,6 @@ else if (c == 'r')
 c = '\n';
 else if (c == '\n')
 c = 'm';
-}while (c != 'm');
-
+} while (c != 'm');
 return (0);
 }
