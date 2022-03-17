@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * print_to_98 - prints the absolute sequence to 98
+ *
+ * @n: defines the initial value
+ * Return: void no returns
+ */
+
 void print_to_98(int n)
 {
 	while (n != 98)
