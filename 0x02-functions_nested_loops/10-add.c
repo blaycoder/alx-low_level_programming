@@ -1,8 +1,8 @@
-#includee "main.h"
+#include "main.h"
 
 /**
  * add - add two integers and return the result
- *@s: result of values sum
+ *@f: result of values
  *@a:  Value 1
  *@b: Value 2
  *
@@ -12,8 +12,8 @@
 
 int add(int a, int b)
 {
-	int r;
+	int f;
 
-		r = (a + b);
-	return (r);
+		f = (a + b);
+	return (f);
 }
