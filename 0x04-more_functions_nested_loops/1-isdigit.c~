@@ -1,0 +1,6 @@
+#include "main.h"
+
+/** 
+ * _isdigit: checks digit
+ *@c: variable
+*/
