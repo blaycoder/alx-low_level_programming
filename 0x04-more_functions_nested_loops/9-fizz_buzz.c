@@ -7,16 +7,35 @@
  * Return: On success 0.
  *
  */
+
 int main(void)
 {
-	int a;
+	int j = 100;
+	int i;
 
-	for (a = 1; a <= 100; a++)
+	i = 1;
+	while (i <= j)
 	{
-		((a % 3) == 0) ?
-		  (((a % 5) == 0) ? (printf("FizzBuzz")) : (printf("Fizz"))) :
-		  (((a % 5) == 0) ? (printf("Buzz")) : (printf("%i", a)));
-		(a < 100) ? (_putchar(' ')) : (_putchar('\n'));
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%i", i);
+		}
+		if (i != 100)
+		printf(" ");
+	i++;
 	}
+	printf("\n");
 	return (0);
 }
