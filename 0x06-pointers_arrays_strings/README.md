@@ -1,0 +1,1 @@
+Another task on pointer, arrays and strings
