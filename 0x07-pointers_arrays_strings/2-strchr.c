@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strchr - function that locates a character in a string
+* _strchr- locates a character in a string
 * @s: string
 * @c: character to search for
 * Return : return c
@@ -10,11 +10,13 @@
 char *_strchr(char *s, char c)
 {
 unsigned int i;
-for (i = 0; s[i] != '\0'; s++)
+for (i = 0; s[i] != '\0'; i++)
 {
-if (c == s[i]){
-return (c);
+if (c == s[i])
+{
+return (s[i]);
 }
-else if (c != s[i])
-return (NULL);
+else if (c != '\0')
+return ('\0');
+}
 }
